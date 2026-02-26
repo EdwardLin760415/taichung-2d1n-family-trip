@@ -279,7 +279,7 @@ function DayView({
       </div>
 
       <div className="card">
-        <div className="strong">親子小提醒（可自行改）</div>
+        <div className="strong">親子小提醒</div>
         <ul className="muted small list">
           <li>集合點先講好：誰顧小孩、誰顧阿嬤。</li>
           <li>燈會／夜市人多：小女孩先約好走散集合點。</li>
