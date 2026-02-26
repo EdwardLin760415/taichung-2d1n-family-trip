@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import membersImg from "./assets/members.png";
 
 type Stop = {
   id: string;
@@ -358,10 +359,10 @@ export default function TaichungTrip() {
               <div className="row gap wrap" style={{ marginTop: 8 }}>
                 <span className="muted small">成員：</span>
                 <img
-    src="/members.png"
-    alt="成員：阿嬤x1、媽媽x2、爸爸x2、大阿姨x1、小女孩x3"
-    className="membersImage"
-  />
+  src={membersImg}
+  alt="成員：阿嬤x1、媽媽x2、爸爸x2、大阿姨x1、小女孩x3"
+  className="membersImage"
+/>
               </div>
             </div>
             <div className="row gap wrap">
